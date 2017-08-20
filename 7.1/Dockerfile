@@ -18,24 +18,41 @@ RUN add-apt-repository ppa:ondrej/php \
   && apt-get install -y php7.1 --force-yes
 
 RUN apt-get install -y --force-yes \
-  	php7.1-cli \
-  	php7.1-common \
-        php7.1-curl \
-        php7.1-json \
-        php7.1-xml \
-        php7.1-mbstring \
-        php7.1-mcrypt \
-        php7.1-mysql \
-        php7.1-pgsql \
-        php7.1-sqlite \
-        php7.1-sqlite3 \
-        php7.1-zip \
-        php7.1-memcached \
-        php7.1-gd \
-        php7.1-fpm \
-        php7.1-xdebug \
-        php7.1-bcmath \
-        php7.1-intl \
+        php7.0-cli \
+        php7.0-common \
+        php7.0-curl \
+        php7.0-dev \
+        php7.0-gd \
+        php7.0-gmp \
+        php7.0-json \
+        php7.0-ldap \
+        php7.0-mysql \
+        php7.0-odbc \
+        php7.0-opcache \
+        php7.0-pgsql \
+        php7.0-pspell \
+        php7.0-readline \
+        php7.0-recode \
+        php7.0-snmp \
+        php7.0-sqlite3 \
+        php7.0-tidy \
+        php7.0-xml \
+        php7.0-xmlrpc \
+        php7.0-bcmath \
+        php7.0-bz2 \
+        php7.0-enchant \
+        php7.0-fpm \
+        php7.0-imap \
+        php7.0-interbase \
+        php7.0-intl \
+        php7.0-mbstring \
+        php7.0-mcrypt \
+        php7.0-phpdbg \
+        php7.0-soap \
+        php7.0-sybase \
+        php7.0-xsl \
+        php7.0-zip \
+        php7.0-dba \
         libcurl4-openssl-dev \
         libedit-dev \
         libssl-dev \
