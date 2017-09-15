@@ -53,6 +53,7 @@ RUN apt-get install -y --force-yes \
         php5.6-xsl \
         php5.6-zip \
         php5.6-dba \
+        libmcrypt-dev \
         libcurl4-openssl-dev \
         libedit-dev \
         libssl-dev \

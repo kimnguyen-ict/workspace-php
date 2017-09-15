@@ -53,6 +53,7 @@ RUN apt-get install -y --force-yes \
         php7.1-xsl \
         php7.1-zip \
         php7.1-dba \
+        libmcrypt-dev \
         libcurl4-openssl-dev \
         libedit-dev \
         libssl-dev \
